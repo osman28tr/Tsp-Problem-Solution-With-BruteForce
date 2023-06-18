@@ -12,3 +12,5 @@ Uygulamayı daha detaylı incelemek isterseniz: [Rapor.docx](https://github.com/
 dökümanına göz atabilirsiniz.
 
 Kullanılan Dil: C#
+
+Kullanılan girdi dosyalarını bin->debug->.net7.0 klasörünün içerisinde bulabilirsiniz.(tsp_5_1.txt,tsp_124_1.txt ...)
