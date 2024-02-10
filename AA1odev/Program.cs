@@ -16,7 +16,12 @@ internal class Program
         var time = new System.Diagnostics.Stopwatch();
         time.Start();
         // Dosya adı ve koordinat listesi.
-        string fileName = "tsp_5_1.txt";
+
+        string currentDirectory = Directory.GetCurrentDirectory();
+        string binDebugPath = Path.Combine("bin", "Debug", "net7.0");
+        string dosyaYolu = currentDirectory.Replace(binDebugPath, "");
+        string fileName = Path.Combine(dosyaYolu, "Datas", "tsp_5_1.txt");
+
         List<double[]> coordList = new List<double[]>();
 
         // Dosyada verilen şehirlerdeki koordinatları oku.
