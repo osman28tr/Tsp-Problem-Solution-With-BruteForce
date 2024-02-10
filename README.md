@@ -7,9 +7,16 @@ dosyalar için ise malesef bu işlem hem memory hem zaman açısından çok mali
 örneğin, greedy algoritma gerçeklenebilir, greedy algoritma hem memory hem zaman açısından oldukça
 verimli olur makul sürede çözümü gerçekleştirir ancak bunun da dezavantajı global aramada başarısız
 olması ve local çözümler üretmesidir.</p>
-
+<b>Örnek bir çıktı:</b><br>
+<img src="AA1odev/Images/TspProblem1.PNG">
 <h3>1. Geliştirme Ortamı ve Kullanılan Dil</h3>
 Visual Studio (Console Application(.Net)) - C#
 
+<h3>2. Çalıştırılan Farklı Girdi Dosyalarına Göre Ortaya Çıkan Sonuç</h3>
+<img src="AA1odev/Images/TspProblem2.PNG">
+<p align="justify">Şekilde 5,124, 1000, 5915, 11849 boyutlu dosyalar için boyut-zaman diyagramı görülmektedir, burada TSP probleminin çözümü olarak NearestNeighbor algoritması kullanılmıştır, şekile bakıcak olursak, veri boyutu arttıkça algoritmamızın daha fazla zorlandığı görülmektedir. Bu da demek oluyor ki çok fazla (100.000,1.000.000 vs.) gibi veri boyutlarında bu algoritmayı kullanarak bu problemi çözmek mümkün olmayacaktır. Bu sebeple çok yüksek boyutlu veriler için daha efektif algoritmalar(evrimsel algoritmalar vs.) kullanılması gerekmektedir.</p>
 
-Kullanılan girdi dosyalarını bin->debug->.net7.0 klasörünün içerisinde bulabilirsiniz.(tsp_5_1.txt,tsp_124_1.txt ...)
+<h3>3. Kurulum</h3>
+Uygulamayı indirdikten sonra start ikonuna basarak çalıştırabilirsiniz.
+<br><br>
+<b>Not: </b>Kullanılan girdi dosyalarını "Datas" klasörünün içerisinde bulabilirsiniz.(tsp_5_1.txt,tsp_124_1.txt ...)
