@@ -1,4 +1,4 @@
-<h1>Gezgin Satıcı Problemi(Traver Salesman Problem)</h1>
+<h1>Algoritma Analizi ve Tasarımı Dersi - Gezgin Satıcı Problemi(Traver Salesman Problem)</h1>
 <p align="justify">
 TSP (Travelling Salesman Problem), bir kişinin veya bir elemanın belirlenen şehirler doğrultusunda her bir şehri en az bir kez ziyaret ederek başladığı şehre geri dönmesi için oluşturulan bir rota problemidir. Bu ödevin amacı ise bu probleme dayanarak bu kişinin hesaplanan en kısa rotaya göre(tüm şehirleri dolaşması şartı ile) gidip, en az maliyetle başladığı şehire geri dönmesidir. Bu sayede bu kişi zamandan, bütçeden, yakıttan vs. tasarruf etmiş olacaktır.
 Bu uygulamada Gezgin satıcı problemi(Traver Salesman Problem)'nin bruteforce yaklaşımı ile çözümü ele alınmıştır.
